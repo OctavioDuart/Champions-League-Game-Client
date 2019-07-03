@@ -1,0 +1,11 @@
+#footer-home-page{
+    background: #222;
+    margin-top:8%;
+    height: 12vh;
+    padding: 25px;
+}
+
+footer span {
+    color: aliceblue;
+    margin-left: 35%;
+}
