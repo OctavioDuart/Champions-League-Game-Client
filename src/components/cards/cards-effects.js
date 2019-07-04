@@ -8,7 +8,7 @@ const cards = [
     'https://www.sccpre.cat/mypng/detail/65-655741_arsenal-logo-dream-league-soccer-2018-arsenal-logo.png',
     'https://upload.wikimedia.org/wikipedia/pt/3/39/Celtic_FC_logo.png',
     'https://upload.wikimedia.org/wikipedia/hif/b/bd/Liverpool_FC.png',
-    'https://cdn.freebiesupply.com/logos/large/2x/f-c-porto-logo-png-transparent.png',
+    'https://logodetimes.com/times/psv-eindhoven/logo-psv-eindhoven.png',
     'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Juventus_FC_2017_logo.svg/518px-Juventus_FC_2017_logo.svg.png',
     'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Logo_FC_Red_Star_Belgrade.svg/1200px-Logo_FC_Red_Star_Belgrade.svg.png',
     'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/220px-Borussia_Dortmund_logo.svg.png'

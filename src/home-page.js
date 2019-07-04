@@ -10,7 +10,6 @@ class HomePage extends Component {
     render() {
         return (
             <>
-                
                 <CardsEffects />
                 <BtnPlayGame />
                 <Footer mt={'134%'} />
