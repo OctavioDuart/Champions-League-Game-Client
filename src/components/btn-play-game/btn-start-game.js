@@ -1,15 +1,22 @@
 import React from 'react';
+
 import './btn-play-game.css';
 
 
 const BtnPlayGame = () => {
 
     const callFunction = () => {
-        console.log("Hello")
+        window.location.href = window.location.origin + '/form-game'
     }
 
     return (
-        <button onClick={callFunction}>Começar</button>
+
+        <button
+            onClick={callFunction}
+            id="button-go-game">
+            Começar
+            </button>
+
     );
 };
 

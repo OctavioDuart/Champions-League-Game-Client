@@ -1,6 +1,8 @@
-button {
-    margin-top: 100%;
-    margin-left: 35%;
+#button-go-game {
+    margin-top: 115%;
+    position: absolute;
+    margin-left: 40%;
+    margin-bottom: 5%;
     background-color: #162E58;
     color: white;
     border: none;
@@ -8,5 +10,5 @@ button {
     height: 55px;
     font-size: 20px;
     outline: 0;
-    border-radius: 23px;    
+    border-radius: 23px;
 }

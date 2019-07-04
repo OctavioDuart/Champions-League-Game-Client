@@ -1,8 +1,9 @@
 #footer-home-page{
     background: #222;
-    margin-top:8%;
-    height: 12vh;
+    height: 14vh;
     padding: 25px;
+    position: absolute;
+    width: 100%;
 }
 
 footer span {

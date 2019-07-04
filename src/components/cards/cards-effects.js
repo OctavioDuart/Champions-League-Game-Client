@@ -36,16 +36,37 @@ const CardsEffects = () => {
         if (!down && gone.size === cards.length) setTimeout(() => gone.clear() || set(i => to(i)), 600)
     })
     return props.map(({ x, y, rot, scale }, i) => (
-            <animated.div key={i} style={{ transform: interpolate([x, y], (x, y) => `translate3d(${x}px,${y}px,0)`) }}>
-                <animated.div {...bind(i)} style={{
-                    transform: interpolate([rot, scale], trans),
-                    backgroundImage: `url(${cards[i]})`,
-                    height: '65%',
-                    width: '55%',
-                    marginBottom: '70%',
-                    marginTop: '30%'
-                }} />
-            </animated.div>
+        <animated.div key={i} style={
+            {
+                transform: interpolate([x, y], (x, y) => `translate3d(${x}px,${y}px,0)`),
+                position: 'absolute',
+                width: '100vw',
+                height: '100vh',
+                willChange: 'transform',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center'
+            }
+        }>
+            <animated.div {...bind(i)} style={{
+                transform: interpolate([rot, scale], trans),
+                backgroundImage: `url(${cards[i]})`,
+                marginBottom: '100%',
+                zIndex: '1',
+                backgroundColor: 'white',
+                backgroundSize: 'auto 85%',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center center',
+                width: '40vh',
+                maxWidth: '300px',
+                height: '60vh',
+                maxHeight: '570px',
+                willChange: 'transform',
+                borderRadius: '10px',
+                marginTop: '65%',
+                boxShadow: '0 12.5px 100px -10px rgba(50, 50, 73, 0.4), 0 10px 10px -10px rgba(50, 50, 73, 0.3)'
+            }} />
+        </animated.div>
     ));
 };
 
